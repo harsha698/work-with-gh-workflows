@@ -1,0 +1,15 @@
+# macOS Files
+.DS_Store
+
+# IDE Files
+.vscode/*
+.idea
+
+# Log and local Files
+*.log
+*.local
+package-lock.json
+
+
+# Node Modules
+node_modules

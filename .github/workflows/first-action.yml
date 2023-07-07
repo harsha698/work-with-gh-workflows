@@ -8,3 +8,10 @@ jobs:
         run: echo "Hello There.. Welcome to Github actions"
       - name: Print Goodbye
         run: echo "Good Bye"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "hello there how are you"
+      - name: Ask address
+        run: echo "Where do you live"
